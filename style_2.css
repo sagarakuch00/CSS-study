@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+
+p{
+  text-transform: capitalize;
+}
+
+div{
+  font-family: 'Times New Roman';
+}
+
+#outer{
+  font-size: 25px;
+}
+
+#inner{
+  font-size: 10px;
+}

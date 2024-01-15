@@ -1,0 +1,34 @@
+ul{
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  color: black;
+}
+li{
+  list-style-type: none;
+  background-color: aqua;
+}
+
+/* Question no.prset_6, Q :2 css */
+
+
+#outer{
+  width: 400px;
+  height: 400px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#inner{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  
+  
+
+}
