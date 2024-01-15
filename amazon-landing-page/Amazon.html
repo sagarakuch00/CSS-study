@@ -5,18 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="amazon.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
 </head>
 
 <body>
-  
+
   <header>
-    <div class="navbar">
-      <div class="navlogo border">
-        <!-- <div class="logo"></div> -->
-        <img src="./amazon_logo.png" class="logo" alt="">
+
+    <nav class="flex border text-white justify-between items-center px-4 py-2 h-20 bg-gray-800">
+      <!-- left side -->
+      <div class="">
+        <img src="./amazon_logo.png" class="h-6 md:h-10" alt="">
       </div>
-    </div>
+
+      <!-- center -->
+      <div class="hidden md:block">
+        <ul class="flex gap-2">
+          <li>home</li>
+          <li>cart</li>
+          <li>about</li>
+        </ul>
+      </div>
+
+      <!-- right side -->
+      <div class="flex gap-2">
+        <button class="border border-gray-400/40 px-2 py-0.5 rounded hover:border-gray-700">login</button>
+        <button class="border bg-yellow-500/60 text-white border-gray-400/40 px-2 py-0.5 rounded hover:border-gray-700">register</button>
+      </div>
+      
+    </nav>
+
   </header>
 
 </body>
